@@ -6,4 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".Fantacy">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/colorAccent"
+        android:gravity="center"
+        android:text="Fantacy Book List"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="-42dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
