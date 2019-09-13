@@ -86,17 +86,14 @@ public class MainActivity2 extends AppCompatActivity
         Fragment fragment = null;
 
         switch (itemId) {
-            case R.id.nav_home:
-                fragment = new Fragment_home();
-                break;
             case R.id.nav_category:
                 fragment = new Fragment_category();
                 break;
             case R.id.nav_wishlist:
                 fragment = new Fragment_wishlist();
                 break;
-            case R.id.nav_cart:
-                fragment = new Fragment_cart();
+            case R.id.nav_feedback:
+                fragment = new Fragment_feedback();
                 break;
         }
 
