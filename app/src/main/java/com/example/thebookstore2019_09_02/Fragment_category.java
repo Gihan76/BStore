@@ -54,6 +54,70 @@ public class Fragment_category extends Fragment {
             }
         });
 
+        ImageButton ib5 =view.findViewById(R.id.imageButton5);
+        ib5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),Adventures.class));
+            }
+        });
+
+        ImageButton ib6 =view.findViewById(R.id.imageButton6);
+        ib6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),Drama.class));
+            }
+        });
+
+        ImageButton ib7 =view.findViewById(R.id.imageButton7);
+        ib7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),Fantacy.class));
+            }
+        });
+
+        ImageButton ib8 =view.findViewById(R.id.imageButton8);
+        ib8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),Mystery.class));
+            }
+        });
+
+        ImageButton ib9 =view.findViewById(R.id.imageButton9);
+        ib9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),Romance.class));
+            }
+        });
+
+        ImageButton ib10 =view.findViewById(R.id.imageButton10);
+        ib10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),ScienceFiction.class));
+            }
+        });
+
+        ImageButton ib11 =view.findViewById(R.id.imageButton11);
+        ib11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),Thriller.class));
+            }
+        });
+
+        ImageButton ib12 =view.findViewById(R.id.imageButton12);
+        ib12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),Westerns.class));
+            }
+        });
+
         return view;
     }
 
