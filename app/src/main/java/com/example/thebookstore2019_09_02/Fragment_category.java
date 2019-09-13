@@ -46,6 +46,14 @@ public class Fragment_category extends Fragment {
             }
         });
 
+        ImageButton ib4 = view.findViewById(R.id.imageButton4);
+        ib4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(),DetectiveStory.class));
+            }
+        });
+
         return view;
     }
 

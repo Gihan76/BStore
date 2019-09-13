@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DetectiveStory"></activity>
+        <activity android:name=".Westerns"></activity>
+        <activity android:name=".Thriller" />
+        <activity android:name=".ScienceFiction" />
+        <activity android:name=".Romance" />
+        <activity android:name=".Mystery" />
+        <activity android:name=".Fantacy" />
+        <activity android:name=".Drama" />
+        <activity android:name=".Adventures" />
+        <activity android:name=".DetectiveStory" />
         <activity android:name=".Fragment_feedback" />
         <activity android:name=".Horror" />
         <activity android:name=".Crime" />
