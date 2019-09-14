@@ -114,7 +114,6 @@
         android:layout_marginRight="2dp"
         android:gravity="center"
         android:text="Comic"
-        android:textStyle="bold"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView2"
         app:layout_constraintEnd_toStartOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="parent" />

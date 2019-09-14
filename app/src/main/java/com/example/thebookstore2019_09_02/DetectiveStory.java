@@ -10,5 +10,6 @@ public class DetectiveStory extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detective_story);
+        setTitle("Detective Story Book List");
     }
 }

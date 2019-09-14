@@ -10,5 +10,6 @@ public class Thriller extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_thriller);
+        setTitle("Thriller Book List");
     }
 }

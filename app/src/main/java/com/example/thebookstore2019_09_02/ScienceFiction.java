@@ -10,5 +10,6 @@ public class ScienceFiction extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_science_fiction);
+        setTitle("Science Fiction Book List");
     }
 }
