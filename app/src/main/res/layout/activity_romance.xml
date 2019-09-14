@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Romance">
+    tools:context=".Westerns">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:backgroundTint="@color/colorAccent"
         android:gravity="center"
-        android:text="Romance Book List"
+        android:text="Western Book List"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="124dp"
         tools:layout_editor_absoluteY="-42dp" />

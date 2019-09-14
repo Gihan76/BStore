@@ -1,19 +1,417 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Crime">
 
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:backgroundTint="@color/colorAccent"
-        android:gravity="center"
-        android:text="Crime Book List"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="-42dp" />
+        android:layout_height="wrap_content">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageButton
+            android:id="@+id/ImageButton0100"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/crime_killerwomen"
+            app:layout_constraintBottom_toTopOf="@+id/ImageButton0101"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/textView0460"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : Killer Women "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0470"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0100"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView0470"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author :Laura Lippman "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0480"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0100"
+            app:layout_constraintTop_toBottomOf="@+id/textView0460" />
+
+        <TextView
+            android:id="@+id/textView0480"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs.1700"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0100"
+            app:layout_constraintTop_toBottomOf="@+id/textView0470" />
+
+        <ImageButton
+            android:id="@+id/ImageButton0101"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/crime_theshuteye"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButton0100" />
+
+        <TextView
+            android:id="@+id/textView0490"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : The Shut Eye"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0500"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0101"
+            app:layout_constraintTop_toBottomOf="@+id/textView0480" />
+
+        <TextView
+            android:id="@+id/textView0500"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author :  Belinda Bauer"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0510"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0101"
+            app:layout_constraintTop_toBottomOf="@+id/textView0490" />
+
+        <TextView
+            android:id="@+id/textView0510"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs.1500"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0101"
+            app:layout_constraintTop_toBottomOf="@+id/textView0500" />
+
+
+        <ImageButton
+            android:id="@+id/ImageButton0102"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/crime_thestudent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButton0101" />
+
+        <TextView
+            android:id="@+id/textView0520"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : The Student"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0530"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0102"
+            app:layout_constraintTop_toBottomOf="@+id/textView0510" />
+
+        <TextView
+            android:id="@+id/textView0530"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author : Iain Ryan "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0540"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0102"
+            app:layout_constraintTop_toBottomOf="@+id/textView0520" />
+
+        <TextView
+            android:id="@+id/textView0540"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs.750"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0102"
+            app:layout_constraintTop_toBottomOf="@+id/textView0530" />
+
+
+        <ImageButton
+            android:id="@+id/ImageButton0103"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/crime_thosepeople"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButton0102" />
+
+        <TextView
+            android:id="@+id/textView0550"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : Those People"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0560"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0103"
+            app:layout_constraintTop_toBottomOf="@+id/textView0540" />
+
+        <TextView
+            android:id="@+id/textView0560"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author :  Louise Candlish"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0570"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0103"
+            app:layout_constraintTop_toBottomOf="@+id/textView0550" />
+
+        <TextView
+            android:id="@+id/textView0570"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs.1950"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0103"
+            app:layout_constraintTop_toBottomOf="@+id/textView0560" />
+
+
+        <ImageButton
+            android:id="@+id/ImageButton0104"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/crime_unsolvedchildmurders"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButton0103" />
+
+        <TextView
+            android:id="@+id/textView0580"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : Unsolved Child Murders"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0590"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0104"
+            app:layout_constraintTop_toBottomOf="@+id/textView0570" />
+
+        <TextView
+            android:id="@+id/textView0590"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author : Emily G. Thompson "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0600"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0104"
+            app:layout_constraintTop_toBottomOf="@+id/textView0580" />
+
+        <TextView
+            android:id="@+id/textView0600"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs.1000"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0104"
+            app:layout_constraintTop_toBottomOf="@+id/textView0590" />
+
+        <ImageButton
+            android:id="@+id/ImageButton0105"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/crime_youletmein"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButton0104" />
+
+        <TextView
+            android:id="@+id/textView0610"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : You Let Me In"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0620"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0104"
+            app:layout_constraintTop_toBottomOf="@+id/textView0600" />
+
+        <TextView
+            android:id="@+id/textView0620"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author :  Lucy Clarke"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0630"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0104"
+            app:layout_constraintTop_toBottomOf="@+id/textView0610" />
+
+        <TextView
+            android:id="@+id/textView0630"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs.1650"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0104"
+            app:layout_constraintTop_toBottomOf="@+id/textView0620" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

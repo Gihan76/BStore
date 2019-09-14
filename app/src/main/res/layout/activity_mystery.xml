@@ -1,19 +1,417 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Mystery">
 
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:backgroundTint="@color/colorAccent"
-        android:gravity="center"
-        android:text="Mystery Book List"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="-42dp" />
+        android:layout_height="wrap_content">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageButton
+            android:id="@+id/ImageButton100"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/mistry_akillersmind"
+            app:layout_constraintBottom_toTopOf="@+id/ImageButton101"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/textView460"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : A Killers Mind "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView470"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton100"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView470"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author : Mike Omer"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView480"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton100"
+            app:layout_constraintTop_toBottomOf="@+id/textView460" />
+
+        <TextView
+            android:id="@+id/textView480"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs.1070"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton100"
+            app:layout_constraintTop_toBottomOf="@+id/textView470" />
+
+        <ImageButton
+            android:id="@+id/ImageButton101"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/mistry_deadlystillwater"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButton100" />
+
+        <TextView
+            android:id="@+id/textView490"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : Deadly Still Water"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView500"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton101"
+            app:layout_constraintTop_toBottomOf="@+id/textView480" />
+
+        <TextView
+            android:id="@+id/textView500"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author :  Roger Stelljes"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView510"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton101"
+            app:layout_constraintTop_toBottomOf="@+id/textView490" />
+
+        <TextView
+            android:id="@+id/textView510"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs.1750"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton101"
+            app:layout_constraintTop_toBottomOf="@+id/textView500" />
+
+
+        <ImageButton
+            android:id="@+id/ImageButton102"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/mistry_iamwatchingyou"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButton101" />
+
+        <TextView
+            android:id="@+id/textView520"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : I am atching You"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView530"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton102"
+            app:layout_constraintTop_toBottomOf="@+id/textView510" />
+
+        <TextView
+            android:id="@+id/textView530"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author : Teresa Driscoll "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView540"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton102"
+            app:layout_constraintTop_toBottomOf="@+id/textView520" />
+
+        <TextView
+            android:id="@+id/textView540"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs.800"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton102"
+            app:layout_constraintTop_toBottomOf="@+id/textView530" />
+
+
+        <ImageButton
+            android:id="@+id/ImageButton103"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/mistry_thegirlintheice"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButton102" />
+
+        <TextView
+            android:id="@+id/textView550"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : The Girl in the Ice"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView560"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton103"
+            app:layout_constraintTop_toBottomOf="@+id/textView540" />
+
+        <TextView
+            android:id="@+id/textView560"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author :  Robert Bryndza"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView570"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton103"
+            app:layout_constraintTop_toBottomOf="@+id/textView550" />
+
+        <TextView
+            android:id="@+id/textView570"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs.1950"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton103"
+            app:layout_constraintTop_toBottomOf="@+id/textView560" />
+
+
+        <ImageButton
+            android:id="@+id/ImageButton104"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/mistry_thegooddaughter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButton103" />
+
+        <TextView
+            android:id="@+id/textView580"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : The Good Daughter"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView590"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton104"
+            app:layout_constraintTop_toBottomOf="@+id/textView570" />
+
+        <TextView
+            android:id="@+id/textView590"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author : Karin Slauhter "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView600"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton104"
+            app:layout_constraintTop_toBottomOf="@+id/textView580" />
+
+        <TextView
+            android:id="@+id/textView600"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs.999.99"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton104"
+            app:layout_constraintTop_toBottomOf="@+id/textView590" />
+
+        <ImageButton
+            android:id="@+id/ImageButton105"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/mistry_theportal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButton104" />
+
+        <TextView
+            android:id="@+id/textView610"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : The Portal"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView620"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton104"
+            app:layout_constraintTop_toBottomOf="@+id/textView600" />
+
+        <TextView
+            android:id="@+id/textView620"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author :  John Sneeden"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView630"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton104"
+            app:layout_constraintTop_toBottomOf="@+id/textView610" />
+
+        <TextView
+            android:id="@+id/textView630"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs.1950"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton104"
+            app:layout_constraintTop_toBottomOf="@+id/textView620" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

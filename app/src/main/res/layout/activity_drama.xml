@@ -1,19 +1,417 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Drama">
 
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:backgroundTint="@color/colorAccent"
-        android:gravity="center"
-        android:text="Drama Book List"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="-42dp" />
+        android:layout_height="wrap_content">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageButton
+            android:id="@+id/ImageButton0000100"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/drama_drama"
+            app:layout_constraintBottom_toTopOf="@+id/ImageButton0000101"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/textView0000460"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : Drama  "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0000470"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0000100"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView0000470"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author :Raina Telgemeier "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0000480"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0000100"
+            app:layout_constraintTop_toBottomOf="@+id/textView0000460" />
+
+        <TextView
+            android:id="@+id/textView0000480"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs.650"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0000100"
+            app:layout_constraintTop_toBottomOf="@+id/textView0000470" />
+
+        <ImageButton
+            android:id="@+id/ImageButton0000101"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/drama_girlsqanda"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButton0000100" />
+
+        <TextView
+            android:id="@+id/textView0000490"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : Girls Q and A"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0000500"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0000101"
+            app:layout_constraintTop_toBottomOf="@+id/textView0000480" />
+
+        <TextView
+            android:id="@+id/textView0000500"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author : Annie Fox and  M.Ed "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0000510"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0000101"
+            app:layout_constraintTop_toBottomOf="@+id/textView0000490" />
+
+        <TextView
+            android:id="@+id/textView0000510"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs.1200"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0000101"
+            app:layout_constraintTop_toBottomOf="@+id/textView0000500" />
+
+
+        <ImageButton
+            android:id="@+id/ImageButton0000102"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/drama_majordrama"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButton0000101" />
+
+        <TextView
+            android:id="@+id/textView0000520"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : Major Drama "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0000530"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0000102"
+            app:layout_constraintTop_toBottomOf="@+id/textView0000510" />
+
+        <TextView
+            android:id="@+id/textView0000530"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author : Emma Shevah "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0000540"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0000102"
+            app:layout_constraintTop_toBottomOf="@+id/textView0000520" />
+
+        <TextView
+            android:id="@+id/textView0000540"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs.780"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0000102"
+            app:layout_constraintTop_toBottomOf="@+id/textView0000530" />
+
+
+        <ImageButton
+            android:id="@+id/ImageButton0000103"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/drama_thearrivalofsomeday"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButton0000102" />
+
+        <TextView
+            android:id="@+id/textView0000550"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : The Arrival Of Someday "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0000560"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0000103"
+            app:layout_constraintTop_toBottomOf="@+id/textView0000540" />
+
+        <TextView
+            android:id="@+id/textView0000560"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author : Jen Malone  "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0000570"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0000103"
+            app:layout_constraintTop_toBottomOf="@+id/textView0000550" />
+
+        <TextView
+            android:id="@+id/textView0000570"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs.1300"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0000103"
+            app:layout_constraintTop_toBottomOf="@+id/textView0000560" />
+
+
+        <ImageButton
+            android:id="@+id/ImageButton0000104"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/drama_thedramaoflife"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButton0000103" />
+
+        <TextView
+            android:id="@+id/textView0000580"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : The Drama Of Life"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0000590"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0000104"
+            app:layout_constraintTop_toBottomOf="@+id/textView0000570" />
+
+        <TextView
+            android:id="@+id/textView0000590"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author : MoAfrika 'aMokgathi and Ayanda Billie  "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0000600"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0000104"
+            app:layout_constraintTop_toBottomOf="@+id/textView0000580" />
+
+        <TextView
+            android:id="@+id/textView0000600"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs.2400"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0000104"
+            app:layout_constraintTop_toBottomOf="@+id/textView0000590" />
+
+        <ImageButton
+            android:id="@+id/ImageButton0000105"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/drama_theknicht"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButton0000104" />
+
+        <TextView
+            android:id="@+id/textView0000610"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : Sir Gawain And The Green Knight "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0000620"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0000104"
+            app:layout_constraintTop_toBottomOf="@+id/textView0000600" />
+
+        <TextView
+            android:id="@+id/textView0000620"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author : Unknown "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView0000630"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0000104"
+            app:layout_constraintTop_toBottomOf="@+id/textView0000610" />
+
+        <TextView
+            android:id="@+id/textView0000630"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs.4850"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton0000104"
+            app:layout_constraintTop_toBottomOf="@+id/textView0000620" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

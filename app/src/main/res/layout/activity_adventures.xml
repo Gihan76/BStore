@@ -1,20 +1,417 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Adventures">
 
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:backgroundTint="@color/colorAccent"
-        android:gravity="center"
-        android:text="Adventure Book List"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="-42dp" />
+        android:layout_height="wrap_content">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
 
+        <ImageButton
+            android:id="@+id/ImageButton000100"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/advantura_milady"
+            app:layout_constraintBottom_toTopOf="@+id/ImageButton000101"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/textView000460"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : Milady "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView000470"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton000100"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView000470"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author :Laura L. Sullivan "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView000480"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton000100"
+            app:layout_constraintTop_toBottomOf="@+id/textView000460" />
+
+        <TextView
+            android:id="@+id/textView000480"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs.1990"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton000100"
+            app:layout_constraintTop_toBottomOf="@+id/textView000470" />
+
+        <ImageButton
+            android:id="@+id/ImageButton000101"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/advantura_thehobbit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButton000100" />
+
+        <TextView
+            android:id="@+id/textView000490"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : The Hobbit "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView000500"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton000101"
+            app:layout_constraintTop_toBottomOf="@+id/textView000480" />
+
+        <TextView
+            android:id="@+id/textView000500"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author : J.R.R. Tolkien "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView000510"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton000101"
+            app:layout_constraintTop_toBottomOf="@+id/textView000490" />
+
+        <TextView
+            android:id="@+id/textView000510"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs.1450"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton000101"
+            app:layout_constraintTop_toBottomOf="@+id/textView000500" />
+
+
+        <ImageButton
+            android:id="@+id/ImageButton000102"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/advantura_theirontrial"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButton000101" />
+
+        <TextView
+            android:id="@+id/textView000520"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : The Iron Trial "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView000530"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton000102"
+            app:layout_constraintTop_toBottomOf="@+id/textView000510" />
+
+        <TextView
+            android:id="@+id/textView000530"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author :Holly Black and Cassandra Clare  "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView000540"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton000102"
+            app:layout_constraintTop_toBottomOf="@+id/textView000520" />
+
+        <TextView
+            android:id="@+id/textView000540"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs.2850"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton000102"
+            app:layout_constraintTop_toBottomOf="@+id/textView000530" />
+
+
+        <ImageButton
+            android:id="@+id/ImageButton000103"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/advantura_themirririfz"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButton000102" />
+
+        <TextView
+            android:id="@+id/textView000550"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : The Mirririfz"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView000560"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton000103"
+            app:layout_constraintTop_toBottomOf="@+id/textView000540" />
+
+        <TextView
+            android:id="@+id/textView000560"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author : Felicia Harper "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView000570"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton000103"
+            app:layout_constraintTop_toBottomOf="@+id/textView000550" />
+
+        <TextView
+            android:id="@+id/textView000570"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs.1850"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton000103"
+            app:layout_constraintTop_toBottomOf="@+id/textView000560" />
+
+
+        <ImageButton
+            android:id="@+id/ImageButton000104"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/advantura_timesnatchers"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButton000103" />
+
+        <TextView
+            android:id="@+id/textView000580"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : The Time Snatchers "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView000590"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton000104"
+            app:layout_constraintTop_toBottomOf="@+id/textView000570" />
+
+        <TextView
+            android:id="@+id/textView000590"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author : Richard Ungar  "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView000600"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton000104"
+            app:layout_constraintTop_toBottomOf="@+id/textView000580" />
+
+        <TextView
+            android:id="@+id/textView000600"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs. 750"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton000104"
+            app:layout_constraintTop_toBottomOf="@+id/textView000590" />
+
+        <ImageButton
+            android:id="@+id/ImageButton000105"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginRight="208dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/adventure_infected"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ImageButton000104" />
+
+        <TextView
+            android:id="@+id/textView000610"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Name : Infeted"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView000620"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton000104"
+            app:layout_constraintTop_toBottomOf="@+id/textView000600" />
+
+        <TextView
+            android:id="@+id/textView000620"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Author : James Schannep "
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toTopOf="@+id/textView000630"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton000104"
+            app:layout_constraintTop_toBottomOf="@+id/textView000610" />
+
+        <TextView
+            android:id="@+id/textView000630"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Price : Rs. 3500"
+            android:textAlignment="inherit"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.588"
+            app:layout_constraintStart_toEndOf="@+id/ImageButton000104"
+            app:layout_constraintTop_toBottomOf="@+id/textView000620" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
