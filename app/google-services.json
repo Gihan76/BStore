@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "543327005198",
+    "firebase_url": "https://bstore-e64bb.firebaseio.com",
+    "project_id": "bstore-e64bb",
+    "storage_bucket": "bstore-e64bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543327005198:android:196d422d93e393348eea5f",
+        "android_client_info": {
+          "package_name": "com.example.thebookstore2019_09_02"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543327005198-364hdftjopeufo4rk893qrdp4k2hapbo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thebookstore2019_09_02",
+            "certificate_hash": "b32ea0daddb7409739df045da8b3ab50a50a8e80"
+          }
+        },
+        {
+          "client_id": "543327005198-u1h4lskk5q9dakfvl9ovv4sjk6oroatd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1rlvIkbFDTy-YNxRDWBEOG9wGHGY74j8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543327005198-u1h4lskk5q9dakfvl9ovv4sjk6oroatd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
