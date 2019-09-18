@@ -1,10 +1,13 @@
 package com.example.thebookstore2019_09_02;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.LayoutInflater;
+import android.widget.Button;
+
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
@@ -18,7 +21,6 @@ public class Fragment_feedback extends Fragment {
         //change R.layout.yourlayoutfilename for each of your fragments
         return inflater.inflate(R.layout.fragment_feedback, container, false);
     }
-
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
