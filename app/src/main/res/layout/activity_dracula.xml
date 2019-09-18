@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/lightblue"
+    tools:context=".Dracula">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Dracula"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="30dp"/>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:src="@drawable/horror_dracula"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:text="Author : Bram Stoker and Mary Wollstonecraft Shelly "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:text="Price : Rs.1000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:text="Plot"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="@string/dracula"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="205dp"
+                android:layout_height="50dp"
+                android:textStyle="bold"
+                android:backgroundTint="@color/lightpurple"
+                android:text="Buy Now"/>
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="205dp"
+                android:layout_height="50dp"
+                android:textStyle="bold"
+                android:backgroundTint="@color/lightorange"
+                android:text="Add To Wishlist"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
