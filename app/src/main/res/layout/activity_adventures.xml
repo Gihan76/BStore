@@ -233,7 +233,7 @@
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginBottom="8dp"
-            android:text="Name : The Mirririfz"
+            android:text="Name : The Mirror Of Z"
             android:textAlignment="inherit"
             android:textColor="@color/black"
             app:layout_constraintBottom_toTopOf="@+id/textView000560"
