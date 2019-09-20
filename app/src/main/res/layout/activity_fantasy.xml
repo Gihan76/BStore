@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fantacy">
+    tools:context=".Fantasy">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -233,7 +233,7 @@
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginBottom="8dp"
-            android:text="Name : The Appitch "
+            android:text="Name : The Appitch Witch "
             android:textAlignment="inherit"
             android:textColor="@color/black"
             app:layout_constraintBottom_toTopOf="@+id/textView00000560"

@@ -4,12 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Fantacy extends AppCompatActivity {
+public class TheShapeOfWater extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fantacy);
-        setTitle("Fantacy Book List");
+        setContentView(R.layout.activity_the_shape_of_water);
+        setTitle("The Shape Of Water");
     }
 }

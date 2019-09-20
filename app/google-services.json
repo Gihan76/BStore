@@ -15,6 +15,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "543327005198-iri1cf3l6m4oivqfofvs4pkov1uui8f9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thebookstore2019_09_02",
+            "certificate_hash": "460c82ab6d6c51326c0553e906d31d07d29e5a4e"
+          }
+        },
+        {
+          "client_id": "543327005198-6rbc4lq2k26vl9sdfmkgitriucvkqlvv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thebookstore2019_09_02",
+            "certificate_hash": "67758a1dc526cd43c5f527b7b1818cee418a70af"
+          }
+        },
+        {
           "client_id": "543327005198-364hdftjopeufo4rk893qrdp4k2hapbo.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

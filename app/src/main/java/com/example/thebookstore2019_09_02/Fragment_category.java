@@ -74,7 +74,7 @@ public class Fragment_category extends Fragment {
         ib7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getActivity(),Fantacy.class));
+                startActivity(new Intent(getActivity(),Fantasy.class));
             }
         });
 
