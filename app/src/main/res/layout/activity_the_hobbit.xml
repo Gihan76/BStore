@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="	"
+            android:text=" The Hobbit	"
             android:textStyle="bold"
             android:textColor="@color/black"
             android:gravity="center"
@@ -35,7 +35,7 @@
             android:gravity="center"
             android:textSize="25dp"
             android:textColor="@color/black"
-            android:text="Author : "/>
+            android:text="Author :J.R.R. Tolkien "/>
 
         <TextView
             android:layout_width="match_parent"
@@ -43,7 +43,7 @@
             android:gravity="center"
             android:textSize="25dp"
             android:textColor="@color/black"
-            android:text="Price : Rs."/>
+            android:text="Price : Rs.1450"/>
 
         <TextView
             android:layout_width="match_parent"
