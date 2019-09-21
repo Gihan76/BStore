@@ -5,12 +5,14 @@
 
     <application
         android:allowBackup="true"
-        android:label="@string/app_name"
         android:icon="@mipmap/ic_launcher_book"
+        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_book_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HellBentKid"></activity>
+        <activity android:name=".paymentpagetwo"></activity>
+        <activity android:name=".paymentpageone" />
+        <activity android:name=".HellBentKid" />
         <activity android:name=".OneFineCowBoy" />
         <activity android:name=".FrontierAmerica" />
         <activity android:name=".FiveChildrenOnTheWesternFront" />

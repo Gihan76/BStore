@@ -34,16 +34,12 @@
     <string name="thirtydaysofnight">"In a sleepy, secluded Alaska town called Barrow, the sun sets and doesn't rise for over thirty consecutive days and nights. From the darkness, across the frozen wasteland, an evil will come that will bring the residents of Barrow to their knees. The only hope for the town is the Sheriff and Deputy, husband and wife who are torn between their own survival and saving the town they love"</string>
 
 
-
-
-
     <string name="msg1">Name</string>
     <string name="msg2">E-mail</string>
     <string name="msg3">Contact Number</string>
     <string name="msg4">Message</string>
     <string name="btn1">SUBMIT</string>
     <string name="btn2">SHOW ALL</string>
-
 
 
 </resources>
