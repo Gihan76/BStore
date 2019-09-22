@@ -5,8 +5,14 @@ public class Payment {
     private String email;
     private String addres;
     private Integer phone;
-    private String code;
+    private Integer code;
     private boolean cdtype;
+    private Integer accnum;
+    private String city;
+
+    public Payment() {
+    }
+
 
     public boolean isCdtype() {
         return cdtype;
@@ -24,11 +30,6 @@ public class Payment {
         this.accnum = accnum;
     }
 
-    private Integer accnum;
-    private String city;
-
-    public Payment() {
-    }
 
 
     public String getUsername() {
@@ -63,11 +64,11 @@ public class Payment {
         this.phone = phone;
     }
 
-    public String getCode() {
+    public int getCode() {
         return code;
     }
 
-    public void setCode(String code) {
+    public void setCode(int code) {
         this.code = code;
     }
 
