@@ -125,7 +125,7 @@
     <string name="code">Zip code</string>
     <string name="city">City</string>
     <string name="ctype">Credit card type</string>
-
+    <string name="btn3">GIVE US A FEEDBACK</string>
 
 
 </resources>
