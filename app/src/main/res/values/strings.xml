@@ -120,5 +120,15 @@
     <string name="btn1" translatable="false">SUBMIT</string>
     <string name="btn2" translatable="false">SHOW ALL</string>
 
+    <string name="username">Username</string>
+    <string name="email">E-mail</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="acnum">Account number</string>
+    <string name="code">Zip code</string>
+    <string name="city">City</string>
+    <string name="ctype">Credit card type</string>
+    <string name="btn3">GIVE US A FEEDBACK</string>
+
 
 </resources>
