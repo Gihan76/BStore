@@ -35,6 +35,7 @@ public class paymentpageone extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_paymentpageone);
+        setTitle("Payment");
 
         name = findViewById(R.id.uname);
         email = findViewById(R.id.email);

@@ -95,6 +95,9 @@ public class MainActivity2 extends AppCompatActivity
             case R.id.nav_feedback:
                 fragment = new Fragment_feedback();
                 break;
+            case R.id.nav_login:
+                fragment = new Fragment_login();
+                break;
         }
 
 

@@ -18,7 +18,7 @@ public class CaptainMarvel extends AppCompatActivity {
         setTitle("Captain Marvel");
 
         btn1 = findViewById(R.id.button1);
-        btn2=findViewById(R.id.button2);
+        btn2 = findViewById(R.id.button2);
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,7 +31,7 @@ public class CaptainMarvel extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(getApplicationContext(),SignUpActivity.class);
+                Intent i = new Intent(getApplicationContext(),SignUpActivity.class);
                 startActivity(i);
             }
         });

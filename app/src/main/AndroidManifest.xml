@@ -10,7 +10,13 @@
         android:roundIcon="@mipmap/ic_launcher_book_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".paymentpagetwo"></activity>
+        <activity android:name=".Admin_LoggedInActivity"></activity>
+        <activity android:name=".Book_Manager" />
+        <activity android:name=".Admin_LoginActivity" />
+        <activity android:name=".LoggedInActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".paymentpagetwo" />
         <activity android:name=".paymentpageone" />
         <activity android:name=".HellBentKid" />
         <activity android:name=".OneFineCowBoy" />
@@ -94,7 +100,6 @@
         <activity android:name=".Drama" />
         <activity android:name=".Adventures" />
         <activity android:name=".DetectiveStory" />
-        <activity android:name=".Fragment_feedback" />
         <activity android:name=".Horror" />
         <activity android:name=".Crime" />
         <activity android:name=".Comic" />
