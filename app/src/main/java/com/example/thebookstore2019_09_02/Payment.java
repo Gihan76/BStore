@@ -1,36 +1,18 @@
 package com.example.thebookstore2019_09_02;
 
 public class Payment {
+
     private String username;
     private String email;
     private String addres;
     private Integer phone;
     private Integer code;
-    private boolean cdtype;
-    private Integer accnum;
     private String city;
+    private Integer accountnum;
+    private String cdType;
 
     public Payment() {
     }
-
-
-    public boolean isCdtype() {
-        return cdtype;
-    }
-
-    public void setCdtype(boolean cdtype) {
-        this.cdtype = cdtype;
-    }
-
-    public Integer getAccnum() {
-        return accnum;
-    }
-
-    public void setAccnum(Integer accnum) {
-        this.accnum = accnum;
-    }
-
-
 
     public String getUsername() {
         return username;
@@ -60,15 +42,15 @@ public class Payment {
         return phone;
     }
 
-    public void setPhone(int phone) {
+    public void setPhone(Integer phone) {
         this.phone = phone;
     }
 
-    public int getCode() {
+    public Integer getCode() {
         return code;
     }
 
-    public void setCode(int code) {
+    public void setCode(Integer code) {
         this.code = code;
     }
 
@@ -80,6 +62,21 @@ public class Payment {
         this.city = city;
     }
 
+    public Integer getAccountnum() {
+        return accountnum;
+    }
+
+    public void setAccountnum(Integer accountnum) {
+        this.accountnum = accountnum;
+    }
+
+    public String getCdType() {
+        return cdType;
+    }
+
+    public void setCdType(String cdType) {
+        this.cdType = cdType;
+    }
 
 
 
