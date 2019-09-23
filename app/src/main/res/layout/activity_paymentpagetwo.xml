@@ -215,9 +215,19 @@
         android:id="@+id/imageView8"
         android:layout_width="52dp"
         android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.176"
         app:srcCompat="@drawable/amx"
-        tools:layout_editor_absoluteX="194dp"
-        tools:layout_editor_absoluteY="126dp"
         tools:ignore="MissingConstraints" />
 
     <RadioButton

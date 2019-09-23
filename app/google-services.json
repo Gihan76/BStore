@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "543327005198-iaf0krp06utkcm6s54gpkmfenupipolc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thebookstore2019_09_02",
+            "certificate_hash": "c4dfb58d07ad745a93c273fb22f3066fe6a83321"
+          }
+        },
+        {
           "client_id": "543327005198-iri1cf3l6m4oivqfofvs4pkov1uui8f9.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
