@@ -9,13 +9,6 @@ public class Book {
     public Book() {
     }
 
-    public Book(String title, String author, String category, String price) {
-        this.title = title;
-        this.author = author;
-        this.category = category;
-        this.price = price;
-    }
-
     public String getTitle() {
         return title;
     }
